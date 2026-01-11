@@ -62,7 +62,7 @@
   opacity: 0.7;
 }</style>
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -269,61 +269,43 @@
 </script>
 <!-- End Zappy Analytics -->
 
-    <style id="zappy-mobile-submenu-styles">
-      /* Mobile submenu accordion styles */
+    <style id="zappy-dropdown-submenu-styles">
+      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
+      /* Base styles for dropdown submenus - parent must be positioned */
+      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
+      /* Submenu base - hidden by default */
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      /* CRITICAL: Desktop hover styles to show dropdown */
+      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Submenu item styling */
+      .sub-menu li { list-style: none; margin: 0; padding: 0; }
+      .sub-menu a { display: block !important; padding: 10px 16px !important; color: #333 !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu a:hover { background-color: #f5f5f5; }
+      /* RTL (Hebrew/Arabic) dropdown positioning */
+      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
+      /* Hide empty dropdown menus */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))), .sub-menu:not(:has(li)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Desktop: show submenu on Menu Group hover */
+      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
+      /* Menu Group title styling */
+      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
+      
+      /* ========== MOBILE SUBMENU STYLES ========== */
       @media (max-width: 768px) {
-        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu {
-          position: static !important;
-          transform: none !important;
-          box-shadow: none !important;
-          background: transparent !important;
-          margin-top: 0 !important;
-          max-height: 0;
-          overflow: hidden;
-          opacity: 0;
-          visibility: hidden;
-          transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease, padding 0.3s ease;
-          padding: 0 !important;
-          border-radius: 0 !important;
-        }
-        .sub-menu.mobile-expanded {
-          max-height: 500px !important;
-          opacity: 1 !important;
-          visibility: visible !important;
-          padding: 8px 0 8px 16px !important;
-        }
-        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded, html[lang="ar"] .sub-menu.mobile-expanded {
-          padding: 8px 16px 8px 0 !important;
-        }
-        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu {
-          opacity: 0; visibility: hidden; pointer-events: none;
-        }
-        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded {
-          opacity: 1 !important; visibility: visible !important; pointer-events: auto !important;
-        }
-        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) {
-          display: flex !important; flex-wrap: wrap !important; align-items: center !important;
-        }
-        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a {
-          flex: 1 !important;
-        }
-        .mobile-submenu-toggle {
-          display: flex !important; align-items: center !important; justify-content: center !important;
-          width: 44px !important; height: 44px !important; background: transparent !important;
-          border: none !important; cursor: pointer !important; padding: 0 !important; margin: 0 !important;
-          flex-shrink: 0 !important; -webkit-tap-highlight-color: transparent;
-        }
-        .mobile-submenu-toggle::after {
-          content: '' !important; display: block !important; width: 0 !important; height: 0 !important;
-          border-left: 6px solid transparent !important; border-right: 6px solid transparent !important;
-          border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important;
-        }
+        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
+        .sub-menu.mobile-expanded { max-height: 500px !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
+        /* Disable hover behavior on mobile */
+        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
+        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; }
+        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: 44px !important; background: transparent !important; border: none !important; cursor: pointer !important; }
+        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
         .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
-        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu {
-          flex-basis: 100% !important; width: 100% !important;
-        }
-        .sub-menu a { padding: 10px 0 !important; display: block !important; font-size: 14px !important; }
-        .sub-menu a:hover { background-color: transparent !important; }
+        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; }
+        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; }
       }
       @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
     </style>
@@ -339,7 +321,7 @@
     <div class="container nav-container">
       <div class="nav-brand">
         <a href="/" class="logo-link">
-          <img src="/assets/logo.webp" alt="חזון משכנתאות ופיננסים" class="logo" />
+          <img src="/assets/logo.webp" alt="חזון משכנתאות ופיננסים" class="logo">
         </a>
       </div>
       
@@ -359,25 +341,36 @@
       </button>
       
       <ul class="nav-menu" id="navMenu">
+        <li><a href="/">בית</a></li>
         <li><a href="/services">שירותים</a></li>
         <li><a href="/about">אודות</a></li>
-      </ul>
+      
+        <li><a href="/testimonials">המלצות</a></li></ul>
       
       <div class="nav-cta-container">
         <li class="nav-cta-item">
-          <a href="/contact" class="nav-cta-btn">צור קשר</a>
+          <a href="/contact" class="nav-cta-btn" data-element-type="button" data-original-href="/contact" style="background-color: #10979C !important; border-color: #10979C !important; color: #ffffff !important">צור קשר</a>
         </li>
       </div>
     </div>
   </nav>
 
-  <section class="hero">
-    <div class="hero-overlay"></div>
-    <img data-placeholder="hero-1" data-context="Modern Israeli financial consulting office with professional mortgage advisors helping clients with complex transactions" src="/assets/hero-hero-1.webp" alt="ייעוץ משכנתאות מקצועי למסורבי בנקים" class="hero-img">
+  <section class="hero" style="; position: relative; overflow: hidden;">
+<div class="hero-video-background">
+  <div class="hero-video-overlay"></div>
+  <video class="hero-video" autoplay="" muted="" loop="" playsinline="">
+    <source src="/assets/hero-video-0c9eac4564dec45a1be355cd67d0f314-1767806776182.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <img class="hero-video-fallback" src="/assets/hero-hero-1.webp" alt="Hero background" loading="lazy">
+</div>
+
+    <div class="hero-overlay hero-original-overlay-hidden" style="; display: none !important;; display: none !important;"></div>
+    <img data-placeholder="hero-1" data-context="Modern Israeli financial consulting office with professional mortgage advisors helping clients with complex transactions" src="/assets/hero-hero-1.webp" alt="ייעוץ משכנתאות מקצועי למסורבי בנקים" class="hero-img hero-original-image-hidden" style="; display: none !important;; display: none !important;">
     <div class="container hero-content">
-      <h1>ייעוץ משכנתאות מקצועי שמביא תוצאות</h1>
-      <h3>פתרונות פיננסיים מותאמים אישית למסורבי בנקים ועסקאות מורכבות</h3>
-      <a href="/contact" class="btn-primary">קבלו ייעוץ חינם</a>
+      <h1>חזון משכנתאות<br>ייעוץ מקצועי שמביא תוצאות</h1>
+      <h3>פתרונות פיננסיים מותאמים אישית לאיחוד הלוואות, מסורבי בנקים ועסקאות מורכבות</h3>
+      <a href="/contact" class="btn-primary" data-element-type="button" style="background-color: #cbac4d; border-color: #cbac4d; color: #ffffff; border: 2px solid #10979C">קבלו ייעוץ חינם</a>
     </div>
   </section>
 
@@ -394,25 +387,25 @@
   <section class="services-preview">
     <div class="container">
       <h2>השירותים המובילים שלנו</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <img data-placeholder="service-1" data-context="Professional mortgage consultant reviewing complex financial documents with rejected bank client in modern office" src="/assets/service-service-1.webp" alt="ייעוץ משכנתאות למסורבי בנקים">
-          <h3>ייעוץ משכנתאות למסורבי בנקים</h3>
-          <p>קיבלתם סירוב מהבנק? אנחנו מתמחים במציאת פתרונות חלופיים ויצירתיים. הניסיון שלנו מאפשר לנו לזהות הזדמנויות שאחרים מפספסים ולהציג את המקרה שלכם באור הטוב ביותר.</p>
-        </div>
-        <div class="service-card">
-          <img data-placeholder="service-2" data-context="Financial advisor explaining complex mortgage transaction options to business client with multiple properties" src="/assets/service-service-2.webp" alt="משכנתא לעסקאות מורכבות">
-          <h3>משכנתא לעסקאות מורכבות</h3>
-          <p>עסקאות מורכבות דורשות מומחיות מיוחדת. אנו מספקים ליווי מקצועי בעסקאות מורכבות כמו רכישת נכסים מרובים, משכנתאות לעצמאים, ופתרונות למצבים פיננסיים לא סטנדרטיים.</p>
-        </div>
-        <div class="service-card">
-          <img data-placeholder="service-3" data-context="Mortgage specialist presenting loan consolidation strategy on digital screen to Israeli family" src="/assets/service-service-3.webp" alt="איחוד הלוואות ומשכנתאות בישראל">
-          <h3>איחוד הלוואות ומשכנתאות</h3>
-          <p>מרגישים מוצפים מהחזרי הלוואות מרובות? שירות איחוד ההלוואות שלנו מאפשר לכם לאחד את כל ההתחייבויות הפיננסיות למסלול אחד נוח עם תנאים משתלמים יותר.</p>
-        </div>
-      </div>
+      <div class="services-grid zappy-preserve-css-grid" style="grid-template-columns: minmax(0px, 1fr) minmax(0px, 1fr) minmax(0px, 1fr) minmax(0px, 1fr) !important;" data-original-item-width="316" data-original-gap="32px" data-zappy-explicit-columns="true" id="zappy-auto-grid-1767596863206-g18d1a" data-zappy-auto-grid="true" data-zappy-display-mode="carousel"><div class="service-card" style="">
+          <img data-placeholder="service-1" data-context="Professional mortgage consultant reviewing complex financial documents with rejected bank client in modern office" src="/assets/business-general-service-upload-1767551844842.webp" alt="ייעוץ משכנתאות למסורבי בנקים" style="object-position: 88% 47%; position: relative;" class="zappy-editable-image" data-element-type="image" data-element-id="img-1767595368537-0lh9ef0le" data-resize-handler-attached="true" data-original-position="static">
+          <h3 class="">ייעוץ משכנתאות למסורבי בנקים</h3>
+          <p class="">קיבלתם סירוב מהבנק? אנחנו מתמחים במציאת פתרונות חלופיים ויצירתיים. הניסיון שלנו מאפשר לנו לזהות הזדמנויות שאחרים מפספסים ולהציג את המקרה שלכם באור הטוב ביותר.</p>
+        </div><div class="service-card" style="">
+          <img data-placeholder="service-2" data-context="Financial advisor explaining complex mortgage transaction options to business client with multiple properties" src="/assets/service-service-2.webp" alt="משכנתא לעסקאות מורכבות" data-element-type="image" data-element-id="img-1767595368537-ys4cx4kmk" class="zappy-editable-image" data-resize-handler-attached="true" style="position: relative;" data-original-position="static">
+          <h3 class="">משכנתא לעסקאות מורכבות</h3>
+          <p class="">עסקאות מורכבות דורשות מומחיות מיוחדת. אנו מספקים ליווי מקצועי בעסקאות מורכבות כמו רכישת נכסים מרובים, משכנתאות לעצמאים, ופתרונות למצבים פיננסיים לא סטנדרטיים.</p>
+        </div><div class="service-card" style="">
+          <img data-placeholder="service-3" data-context="Mortgage specialist presenting loan consolidation strategy on digital screen to Israeli family" src="/assets/service-service-3.webp" alt="איחוד הלוואות ומשכנתאות בישראל" data-element-type="image" data-element-id="img-1767595368537-c0fnmr5hp" class="zappy-editable-image" data-resize-handler-attached="true" style="position: relative;" data-original-position="static">
+          <h3 class="">איחוד הלוואות ומשכנתאות</h3>
+          <p class="">מרגישים מוצפים מהחזרי הלוואות מרובות? שירות איחוד ההלוואות שלנו מאפשר לכם לאחד את כל ההתחייבויות הפיננסיות למסלול אחד נוח עם תנאים משתלמים יותר.</p>
+        </div><div class="service-card" style="box-sizing: border-box; background-color: rgb(255, 255, 255) !important; padding: 24px !important; display: flex !important; flex-direction: column !important; justify-content: flex-start !important; align-items: stretch !important;">
+          <img data-placeholder="image-placeholder" data-context="Mortgage specialist presenting loan consolidation strategy on digital screen to Israeli family" src="/assets/hero-hero-1-1767595951021-o45325.webp" alt="Image placeholder" data-element-type="image" data-element-id="new-grid-img-1767595870133-0-ah5zbjmpb" class="zappy-editable-image" data-resize-handler-attached="true" style="position: relative; cursor: pointer;;; object-position: 50% 50%;" id="new-grid-img-1767595870133-0-ah5zbjmpb" data-ai-slot="grid-item-image">
+          <h3 class="" style="cursor: text;">משכנתא הפוכה</h3>
+          <p class="" style="cursor: text;">משכנתא הפוכה היא מוצר פיננסי המאפשר לבעלי נכסים מגיל 55 ומעלה לקחת הלוואה על בסיס ערך הנכס שלהם עם החזר חודשי מותאם ללקוח. מספק מקור הכנסה נוסף לפנסיונרים.</p>
+        </div></div>
       <div class="cta-center">
-        <a href="/services" class="btn-secondary">כל השירותים שלנו</a>
+        <a id="element-saved-1767596028122-3thay464v4e" href="/contact" class="btn btn-outline" style="color: #c5a64b; border: 2px solid #c5a64b; background-color: transparent; padding: 12px 24px; border-radius: 6px; transition: all 0.3s; cursor: pointer !important; text-decoration: none; display: inline-block; width: auto !important; flex: 0 0 auto !important;" data-element-type="button">צור </a>
       </div>
     </div>
   </section>
@@ -422,22 +415,22 @@
       <h2>מה הופך את חזון משכנתאות ופיננסים למיוחדים?</h2>
       <div class="features-grid">
         <div class="feature-item">
-          <i class="fas fa-shield-alt feature-icon"></i>
+          <i id="element-saved-1767552826072-1jws2k3qbc1" class="fas fa-shield-alt" style="color: #10979C; font-size: 64px; line-height: 1;" data-element-type="icon" data-icon-type="fontawesome"></i>
           <h3>ניסיון מוכח</h3>
           <p>שנים של ניסיון בטיפול בעסקאות מורכבות ומסורבי בנקים. אנו יודעים איך להציג את המקרה שלכם בצורה המשכנעת ביותר.</p>
         </div>
         <div class="feature-item">
-          <i class="fas fa-handshake feature-icon"></i>
+          <span id="element-saved-1767552866618-tsyzkf5jcrk" class="iconify" data-icon="ic:twotone-handshake" data-iconify="ic:twotone-handshake" data-size-adjusted="true" style="color: #10979c; width: 100px; height: 100px; display: inline-block; vertical-align: -0.125em;" data-element-type="icon" data-icon-type="iconify"></span>
           <h3>ליווי אישי</h3>
           <p>כל לקוח מקבל יועץ אישי ייעודי שמלווה אותו לאורך כל התהליך, עונה על שאלות ומספק מענה מהיר.</p>
         </div>
         <div class="feature-item">
-          <i class="fas fa-chart-line feature-icon"></i>
+          <span id="element-saved-1767552919123-wv575n73hng" class="iconify" data-icon="cil:chart-line" data-iconify="cil:chart-line" data-size-adjusted="true" style="color: #10979c; width: 89px; height: 89px; display: inline-block; vertical-align: -0.125em;" data-element-type="icon" data-icon-type="iconify"></span>
           <h3>פתרונות יצירתיים</h3>
           <p>אנו לא מסתפקים בתשובה "לא". אנו מחפשים דרכים חדשות ויצירתיות למצוא פתרון שמתאים לכם.</p>
         </div>
         <div class="feature-item">
-          <i class="fas fa-clock feature-icon"></i>
+          <i id="element-saved-1767552961673-5qd6b0j44km" class="fas fa-clock" style="color: #10979c; font-size: 73px; line-height: 1;" data-element-type="icon" data-icon-type="fontawesome"></i>
           <h3>תהליך מהיר</h3>
           <p>אנו מבינים שזמן הוא כסף. התהליך שלנו מהיר ויעיל, תוך שמירה על דיוק ומקצועיות.</p>
         </div>
@@ -458,7 +451,7 @@
             <i class="fas fa-star"></i>
           </div>
           <p>"אחרי שקיבלנו סירוב משני בנקים, כבר איבדנו תקווה. חזון משכנתאות הצליחו למצוא לנו פתרון תוך שבועיים. הם באמת מומחים בייעוץ משכנתאות למסורבי בנקים."</p>
-          <div class="testimonial-author">— משפחת כהן, תל אביב</div>
+          <div class="testimonial-author">— משפחת אהרוני, תל אביב</div>
         </div>
         <div class="testimonial-card">
           <div class="testimonial-stars">
@@ -469,7 +462,7 @@
             <i class="fas fa-star"></i>
           </div>
           <p>"העסקה שלנו הייתה מורכבת במיוחד - רכישת שני נכסים במקביל. הצוות המקצועי של חזון ליווה אותנו בכל שלב והצליח לסגור את העסקה בתנאים מעולים."</p>
-          <div class="testimonial-author">— דוד לוי, ירושלים</div>
+          <div class="testimonial-author">— דוד ברכה, ירושלים</div>
         </div>
         <div class="testimonial-card">
           <div class="testimonial-stars">
@@ -486,18 +479,111 @@
     </div>
   </section>
 
+  <section class="recommendations-section">
+    <div class="container">
+      <h2>המלצות</h2>
+      
+      <!-- Text Testimonials Grid -->
+      <div class="recommendations-text-grid">
+        <div class="recommendation-card">
+          <div class="recommendation-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"שירות מעולה ומקצועי! הצוות ליווה אותנו בכל שלב ומצא לנו את הפתרון המושלם למשכנתא. ממליצים בחום!"</p>
+          <div class="recommendation-author">— יוסי כהן, רמת גן</div>
+        </div>
+        
+        <div class="recommendation-card">
+          <div class="recommendation-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"אחרי שלושה סירובים מבנקים שונים, חזון משכנתאות הצליחו לאשר לנו משכנתא תוך שבועיים. פשוט מדהים!"</p>
+          <div class="recommendation-author">— מיכל לוי, נתניה</div>
+        </div>
+        
+        <div class="recommendation-card">
+          <div class="recommendation-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"הייעוץ המקצועי והאישי שקיבלנו עזר לנו להבין את כל האפשרויות ולבחור בפתרון הטוב ביותר עבורנו."</p>
+          <div class="recommendation-author">— אבי ורונית שמש, באר שבע</div>
+        </div>
+        
+        <div class="recommendation-card">
+          <div class="recommendation-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"תהליך מהיר, שקוף ויעיל. הצוות היה זמין לכל שאלה והסביר הכל בצורה ברורה. תודה רבה!"</p>
+          <div class="recommendation-author">— דנה גולן, חיפה</div>
+        </div>
+      </div>
+      
+      <!-- Video Testimonials Section -->
+      <div class="video-testimonials-section">
+        <h3>סרטוני המלצה מלקוחות</h3>
+        <div class="video-testimonials-grid">
+          <div class="video-upload-box">
+            <i class="fas fa-video"></i>
+            <p>העלאת סרטון המלצה</p>
+          </div>
+          
+          <div class="video-upload-box">
+            <i class="fas fa-video"></i>
+            <p>העלאת סרטון המלצה</p>
+          </div>
+          
+          <div class="video-upload-box">
+            <i class="fas fa-video"></i>
+            <p>העלאת סרטון המלצה</p>
+          </div>
+          
+          <div class="video-upload-box">
+            <i class="fas fa-video"></i>
+            <p>העלאת סרטון המלצה</p>
+          </div>
+          
+          <div class="video-upload-box">
+            <i class="fas fa-video"></i>
+            <p>העלאת סרטון המלצה</p>
+          </div>
+          
+          <div class="video-upload-box">
+            <i class="fas fa-video"></i>
+            <p>העלאת סרטון המלצה</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="cta-section">
     <div class="container">
       <div class="cta-content">
-        <h2>מוכנים להתחיל את התהליך?</h2>
-        <p>קבלו ייעוץ משכנתאות מקצועי ומותאם אישית. הצוות שלנו זמין לענות על כל שאלה ולהתחיל בבניית הפתרון הפיננסי המושלם עבורכם.</p>
-        <a href="/contact" class="btn-primary">צרו קשר עכשיו</a>
+        <h2><font color="#10979C">מוכנים להתחיל את התהליך?</font></h2>
+        <p><font color="#4a4a4a"><b>קבלו ייעוץ משכנתאות מקצועי ומותאם אישית. הצוות שלנו זמין לענות על כל שאלה ולהתחיל בבניית הפתרון הפיננסי המושלם עבורכם.</b></font></p>
+        <a id="element-saved-1767596121485-nom7wzjzjt" href="/contact" class="btn btn-primary" style="background-color: #10979C; border: 2px solid #10979C; color: #ffffff; padding: 12px 24px; border-radius: 6px; transition: all 0.3s; cursor: pointer !important; text-decoration: none; display: inline-block; width: auto !important; flex: 0 0 auto !important;" data-element-type="button">צרו קשר עכשיו</a>
       </div>
     </div>
   </section>
 
   <a href="https://wa.me/[whatsapp_handle]" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">
-    <i class="fab fa-whatsapp"></i>
+    <span id="element-saved-1767553641988-ivg04gdr8yt" class="iconify" data-icon="ic:baseline-whatsapp" data-iconify="ic:baseline-whatsapp" data-size-adjusted="true" style="color: #ffffff; width: 64px; height: 64px; display: inline-block; vertical-align: -0.125em;" data-element-type="icon" data-icon-type="iconify"></span>
   </a>
 
   
@@ -508,9 +594,9 @@
           <div class="all-rights-reserved">
             <p>© 2026 חזון משכנתאות ופיננסים. כל הזכויות שמורות.</p>
           </div>
-          <div class="footer-social"><a href="https://facebook.com/[facebook_handle]" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-<a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-<a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
+          <div class="footer-social"><a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style="display:none;"><i id="element-saved-1767596432490-4z1qhvbt9or" class="fas fa-facebook" style="color: #1a1a1a; font-size: 34px; line-height: 1;" data-element-type="icon" data-icon-type="fontawesome"></i></a>
+<a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="display:none;"><i id="element-saved-1767596417604-7zrvaqxi2jn" class="fas fa-instagram" style="color: #1a1a1a; font-size: 35px; line-height: 1;" data-element-type="icon" data-icon-type="fontawesome"></i></a>
+<a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" style="display:none;"><i id="element-saved-1767596406778-63b7dvl0bgr" class="fas fa-whatsapp" style="color: #1a1a1a; font-size: 39px; line-height: 1;" data-element-type="icon" data-icon-type="fontawesome"></i></a></div>
           <div class="footer-legal">
             <a href="/privacy" aria-label="מדיניות פרטיות">
               מדיניות פרטיות
@@ -624,6 +710,22 @@
       if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileSubmenuToggles); }
       else { initMobileSubmenuToggles(); }
       var resizeTimer; window.addEventListener('resize', function() { clearTimeout(resizeTimer); resizeTimer = setTimeout(initMobileSubmenuToggles, 250); });
+      // Re-initialize when mobile menu becomes visible (MutationObserver)
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === 'attributes') {
+            var target = mutation.target;
+            if (target.classList && (target.classList.contains('active') || target.classList.contains('open'))) {
+              setTimeout(initMobileSubmenuToggles, 100);
+            }
+          }
+        });
+      });
+      setTimeout(function() {
+        document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu, nav').forEach(function(menu) {
+          observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+        });
+      }, 500);
     })();
     </script>
     <script src="/script.js"></script>
