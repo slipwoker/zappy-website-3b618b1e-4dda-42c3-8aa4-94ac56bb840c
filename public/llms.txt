@@ -1,50 +1,60 @@
-# Business — Generative Engine Optimization Map
+# חזון משכנתאות ופיננסים — Generative Engine Optimization Map
+
+> A פיננסים ומשכנתאות business.
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://example.com
+https://hazon-mortgages-and-finance.zappy5.app
 מומחי ייעוץ משכנתאות למסורבי בנקים ועסקאות מורכבות. קבלו פתרון מותאם אישית עם חזון משכנתאות ופיננסים.
 
 ### שירותים
-https://example.com/services
+https://hazon-mortgages-and-finance.zappy5.app/services
 גלו את מגוון שירותי ייעוץ משכנתאות למסורבי בנקים, משכנתא לעסקאות מורכבות ואיחוד הלוואות. פתרונות מותאמים אישית.
 
 ### אודות
-https://example.com/about
+https://hazon-mortgages-and-finance.zappy5.app/about
 הכירו את הצוות המקצועי של חזון משכנתאות ופיננסים. שנים של ניסיון בייעוץ משכנתאות למסורבי בנקים ועסקאות מורכבות.
 
 ### צור קשר
-https://example.com/contact
+https://hazon-mortgages-and-finance.zappy5.app/contact
 צרו קשר עם מומחי ייעוץ משכנתאות. קבלו ייעוץ חינם למסורבי בנקים ועסקאות מורכבות. התקשרו או מלאו טופס ונחזור אליכם.
 
 ### המלצות לקוחות - חזון משכנתאות ופיננסים
-https://example.com/testimonials
+https://hazon-mortgages-and-finance.zappy5.app/testimonials
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://hazon-mortgages-and-finance.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://hazon-mortgages-and-finance.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://hazon-mortgages-and-finance.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About חזון משכנתאות ופיננסים
+חזון משכנתאות ופיננסים is a business in the פיננסים ומשכנתאות industry.
+
+## Target Audience
+לקוחות עם עסקאות מורכבות, מסורבי בנקים
+
+## Industry
+פיננסים ומשכנתאות
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://hazon-mortgages-and-finance.zappy5.app/sitemap.xml
+- **Robots.txt**: https://hazon-mortgages-and-finance.zappy5.app/robots.txt
