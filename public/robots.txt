@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hazon-mortgages-and-finance.zappy5.app/sitemap.xml
+Sitemap: https://hazonm.co.il/sitemap.xml

@@ -1,60 +1,51 @@
-# חזון משכנתאות ופיננסים — Generative Engine Optimization Map
-
-> A פיננסים ומשכנתאות business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
-### דף הבית
-https://hazon-mortgages-and-finance.zappy5.app
+### פתרונות ייעוץ משכנתאות מתקדמים — חזון משכנתאות ופיננסים
+https://hazonm.co.il
 מומחי ייעוץ משכנתאות למסורבי בנקים ועסקאות מורכבות. קבלו פתרון מותאם אישית עם חזון משכנתאות ופיננסים.
 
-### שירותים
-https://hazon-mortgages-and-finance.zappy5.app/services
+### שירותי ייעוץ משכנתאות מקצועיים — חזון משכנתאות ופיננסים
+https://hazonm.co.il/services
 גלו את מגוון שירותי ייעוץ משכנתאות למסורבי בנקים, משכנתא לעסקאות מורכבות ואיחוד הלוואות. פתרונות מותאמים אישית.
 
-### אודות
-https://hazon-mortgages-and-finance.zappy5.app/about
+### הסיפור שלנו - מומחי ייעוץ משכנתאות — חזון משכנתאות ופיננסים
+https://hazonm.co.il/about
 הכירו את הצוות המקצועי של חזון משכנתאות ופיננסים. שנים של ניסיון בייעוץ משכנתאות למסורבי בנקים ועסקאות מורכבות.
 
-### צור קשר
-https://hazon-mortgages-and-finance.zappy5.app/contact
-צרו קשר עם מומחי ייעוץ משכנתאות. קבלו ייעוץ חינם למסורבי בנקים ועסקאות מורכבות. התקשרו או מלאו טופס ונחזור אליכם.
+### לקוחות ממליצים וסרטונים | חזון משכנתאות ופיננסים
+https://hazonm.co.il/testimonials-videos
+צפו בסיפורי ההצלחה של לקוחותינו ובסרטוני הסבר על ייעוץ משכנתאות, פתרונות למסורבי בנקים ותכנון פיננסי חכם. חזון משכנתאות ופיננסים - הדרך שלכם לבית.
 
-### המלצות לקוחות - חזון משכנתאות ופיננסים
-https://hazon-mortgages-and-finance.zappy5.app/testimonials
+### צרו קשר לייעוץ משכנתאות חינם — חזון משכנתאות ופיננסים
+https://hazonm.co.il/contact
+צרו קשר עם מומחי ייעוץ משכנתאות. קבלו ייעוץ חינם למסורבי בנקים ועסקאות מורכבות. התקשרו או מלאו טופס ונחזור אליכם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://hazon-mortgages-and-finance.zappy5.app/privacy
+https://hazonm.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://hazon-mortgages-and-finance.zappy5.app/terms
+https://hazonm.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://hazon-mortgages-and-finance.zappy5.app/accessibility
+https://hazonm.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About חזון משכנתאות ופיננסים
-חזון משכנתאות ופיננסים is a business in the פיננסים ומשכנתאות industry.
-
-## Target Audience
-לקוחות עם עסקאות מורכבות, מסורבי בנקים
-
-## Industry
-פיננסים ומשכנתאות
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://hazon-mortgages-and-finance.zappy5.app/sitemap.xml
-- **Robots.txt**: https://hazon-mortgages-and-finance.zappy5.app/robots.txt
+- **Sitemap**: https://hazonm.co.il/sitemap.xml
+- **Robots.txt**: https://hazonm.co.il/robots.txt
