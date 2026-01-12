@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hazonm.co.il/sitemap.xml
+Sitemap: https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/sitemap.xml
