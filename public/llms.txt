@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# חזון משכנתאות ופיננסים — Generative Engine Optimization Map
+
+> A פיננסים ומשכנתאות business.
 
 ---
 
@@ -42,7 +44,15 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About חזון משכנתאות ופיננסים
+חזון משכנתאות ופיננסים is a business in the פיננסים ומשכנתאות industry.
+
+## Target Audience
+לקוחות עם עסקאות מורכבות, מסורבי בנקים
+
+## Industry
+פיננסים ומשכנתאות
+
 ---
 
 # Additional Resources
