@@ -1,61 +1,51 @@
-# חזון משכנתאות ופיננסים — Generative Engine Optimization Map
-
-> A פיננסים ומשכנתאות business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### פתרונות ייעוץ משכנתאות מתקדמים — חזון משכנתאות ופיננסים
-https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com
+https://hazonm.co.il
 מומחי ייעוץ משכנתאות למסורבי בנקים ועסקאות מורכבות. קבלו פתרון מותאם אישית עם חזון משכנתאות ופיננסים.
 
 ### שירותי ייעוץ משכנתאות מקצועיים — חזון משכנתאות ופיננסים
-https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/services
+https://hazonm.co.il/services
 גלו את מגוון שירותי ייעוץ משכנתאות למסורבי בנקים, משכנתא לעסקאות מורכבות ואיחוד הלוואות. פתרונות מותאמים אישית.
 
 ### הסיפור שלנו - מומחי ייעוץ משכנתאות — חזון משכנתאות ופיננסים
-https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/about
+https://hazonm.co.il/about
 הכירו את הצוות המקצועי של חזון משכנתאות ופיננסים. שנים של ניסיון בייעוץ משכנתאות למסורבי בנקים ועסקאות מורכבות.
 
 ### לקוחות ממליצים וסרטונים | חזון משכנתאות ופיננסים
-https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/testimonials-videos
+https://hazonm.co.il/testimonials-videos
 צפו בסיפורי ההצלחה של לקוחותינו ובסרטוני הסבר על ייעוץ משכנתאות, פתרונות למסורבי בנקים ותכנון פיננסי חכם. חזון משכנתאות ופיננסים - הדרך שלכם לבית.
 
 ### צרו קשר לייעוץ משכנתאות חינם — חזון משכנתאות ופיננסים
-https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/contact
+https://hazonm.co.il/contact
 צרו קשר עם מומחי ייעוץ משכנתאות. קבלו ייעוץ חינם למסורבי בנקים ועסקאות מורכבות. התקשרו או מלאו טופס ונחזור אליכם.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/privacy
+https://hazonm.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/terms
+https://hazonm.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/accessibility
+https://hazonm.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About חזון משכנתאות ופיננסים
-חזון משכנתאות ופיננסים is a business in the פיננסים ומשכנתאות industry.
-
-## Target Audience
-לקוחות עם עסקאות מורכבות, מסורבי בנקים
-
-## Industry
-פיננסים ומשכנתאות
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/sitemap.xml
-- **Robots.txt**: https://zappy-site-3b618b1e-4dda-42c3-8aa4.onrender.com/robots.txt
+- **Sitemap**: https://hazonm.co.il/sitemap.xml
+- **Robots.txt**: https://hazonm.co.il/robots.txt
