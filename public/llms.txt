@@ -1,6 +1,4 @@
-# חזון משכנתאות ופיננסים — Generative Engine Optimization Map
-
-> A פיננסים ומשכנתאות business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -17,10 +15,6 @@ https://hazonm.co.il/services
 ### הסיפור שלנו - מומחי ייעוץ משכנתאות — חזון משכנתאות ופיננסים
 https://hazonm.co.il/about
 הכירו את הצוות המקצועי של חזון משכנתאות ופיננסים. שנים של ניסיון בייעוץ משכנתאות למסורבי בנקים ועסקאות מורכבות.
-
-### לקוחות ממליצים וסרטונים | חזון משכנתאות ופיננסים
-https://hazonm.co.il/testimonials-videos
-צפו בסיפורי ההצלחה של לקוחותינו ובסרטוני הסבר על ייעוץ משכנתאות, פתרונות למסורבי בנקים ותכנון פיננסי חכם. חזון משכנתאות ופיננסים - הדרך שלכם לבית.
 
 ### צרו קשר לייעוץ משכנתאות חינם — חזון משכנתאות ופיננסים
 https://hazonm.co.il/contact
@@ -44,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About חזון משכנתאות ופיננסים
-חזון משכנתאות ופיננסים is a business in the פיננסים ומשכנתאות industry.
-
-## Target Audience
-לקוחות עם עסקאות מורכבות, מסורבי בנקים
-
-## Industry
-פיננסים ומשכנתאות
-
+## About Business
 ---
 
 # Additional Resources
