@@ -41818,6 +41818,18 @@ nav.navbar,
 /* === BUTTON TEXT OVERRIDES END === */
 
 
+#zappy-section-0 h1 {
+  color: var(--text-secondary-color);
+  font-weight: 800;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+}
+
+#zappy-section-0 h3 {
+  color: var(--text-secondary-color);
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
