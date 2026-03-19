@@ -79,7 +79,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -89,20 +89,20 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
   --bg-dark: #1a1a1a;
-  --text-dark: #4A4A4A;
+  --text-dark: #FFFFFF;
   --text-light: #ffffff;
   --text-muted: #FFFFFF;
   --border-light: #898b8d;
@@ -266,8 +266,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -506,7 +506,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -647,8 +647,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -918,7 +918,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -1325,7 +1325,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -1362,7 +1362,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -1448,18 +1448,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -1469,13 +1469,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -1485,12 +1485,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -1499,41 +1499,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -1543,12 +1543,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -1997,7 +1997,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -2020,7 +2020,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -2031,10 +2031,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -2045,8 +2045,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -2121,7 +2121,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -2664,7 +2664,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -2674,17 +2674,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -2845,8 +2845,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -3085,7 +3085,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -3226,8 +3226,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -3497,7 +3497,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -3904,7 +3904,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -3941,7 +3941,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -4027,18 +4027,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -4048,13 +4048,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -4064,12 +4064,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -4078,41 +4078,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -4122,12 +4122,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -4576,7 +4576,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -4599,7 +4599,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -4610,10 +4610,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -4624,8 +4624,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -4700,7 +4700,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -5278,7 +5278,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -5288,17 +5288,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -5459,8 +5459,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -5699,7 +5699,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -5840,8 +5840,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -6111,7 +6111,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -6518,7 +6518,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -6555,7 +6555,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -6641,18 +6641,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -6662,13 +6662,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -6678,12 +6678,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -6692,41 +6692,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -6736,12 +6736,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -7190,7 +7190,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -7213,7 +7213,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -7224,10 +7224,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -7238,8 +7238,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -7314,7 +7314,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -7898,7 +7898,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -7908,17 +7908,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -8079,8 +8079,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -8319,7 +8319,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -8460,8 +8460,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -8731,7 +8731,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -9138,7 +9138,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -9175,7 +9175,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -9261,18 +9261,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -9282,13 +9282,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -9298,12 +9298,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -9312,41 +9312,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -9356,12 +9356,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -9810,7 +9810,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -9833,7 +9833,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -9844,10 +9844,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -9858,8 +9858,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -9934,7 +9934,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -10514,7 +10514,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -10524,17 +10524,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -10695,8 +10695,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -10935,7 +10935,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -11076,8 +11076,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -11347,7 +11347,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -11754,7 +11754,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -11791,7 +11791,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -11877,18 +11877,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -11898,13 +11898,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -11914,12 +11914,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -11928,41 +11928,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -11972,12 +11972,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -12426,7 +12426,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -12449,7 +12449,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -12460,10 +12460,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -12474,8 +12474,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -12550,7 +12550,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -13134,7 +13134,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -13144,17 +13144,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -13315,8 +13315,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -13555,7 +13555,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -13696,8 +13696,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -13967,7 +13967,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -14374,7 +14374,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -14411,7 +14411,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -14497,18 +14497,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -14518,13 +14518,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -14534,12 +14534,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -14548,41 +14548,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -14592,12 +14592,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -15046,7 +15046,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -15069,7 +15069,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -15080,10 +15080,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -15094,8 +15094,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -15170,7 +15170,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -15752,7 +15752,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -15762,17 +15762,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -15933,8 +15933,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -16173,7 +16173,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -16314,8 +16314,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -16585,7 +16585,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -16992,7 +16992,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -17029,7 +17029,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -17115,18 +17115,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -17136,13 +17136,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -17152,12 +17152,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -17166,41 +17166,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -17210,12 +17210,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -17664,7 +17664,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -17687,7 +17687,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -17698,10 +17698,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -17712,8 +17712,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -17788,7 +17788,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -18369,7 +18369,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -18379,17 +18379,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -18550,8 +18550,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -18790,7 +18790,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -18931,8 +18931,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -19202,7 +19202,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -19609,7 +19609,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -19646,7 +19646,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -19732,18 +19732,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -19753,13 +19753,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -19769,12 +19769,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -19783,41 +19783,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -19827,12 +19827,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -20281,7 +20281,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -20304,7 +20304,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -20315,10 +20315,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -20329,8 +20329,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -20405,7 +20405,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -20986,7 +20986,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -20996,17 +20996,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -21167,8 +21167,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -21407,7 +21407,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -21548,8 +21548,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -21819,7 +21819,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -22226,7 +22226,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -22263,7 +22263,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -22349,18 +22349,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -22370,13 +22370,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -22386,12 +22386,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -22400,41 +22400,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -22444,12 +22444,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -22898,7 +22898,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -22921,7 +22921,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -22932,10 +22932,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -22946,8 +22946,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -23022,7 +23022,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -23565,7 +23565,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -23575,17 +23575,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -23746,8 +23746,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -23986,7 +23986,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -24127,8 +24127,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -24398,7 +24398,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -24805,7 +24805,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -24842,7 +24842,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -24928,18 +24928,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -24949,13 +24949,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -24965,12 +24965,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -24979,41 +24979,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -25023,12 +25023,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -25477,7 +25477,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -25500,7 +25500,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -25511,10 +25511,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -25525,8 +25525,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -25601,7 +25601,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -26179,7 +26179,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -26189,17 +26189,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -26360,8 +26360,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -26600,7 +26600,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -26741,8 +26741,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -27012,7 +27012,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -27419,7 +27419,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -27456,7 +27456,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -27542,18 +27542,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -27563,13 +27563,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -27579,12 +27579,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -27593,41 +27593,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -27637,12 +27637,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -28091,7 +28091,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -28114,7 +28114,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -28125,10 +28125,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -28139,8 +28139,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -28215,7 +28215,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -28799,7 +28799,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -28809,17 +28809,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -28980,8 +28980,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -29220,7 +29220,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -29361,8 +29361,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -29632,7 +29632,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -30039,7 +30039,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -30076,7 +30076,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -30162,18 +30162,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -30183,13 +30183,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -30199,12 +30199,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -30213,41 +30213,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -30257,12 +30257,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -30711,7 +30711,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -30734,7 +30734,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -30745,10 +30745,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -30759,8 +30759,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -30835,7 +30835,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -31415,7 +31415,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -31425,17 +31425,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -31596,8 +31596,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -31836,7 +31836,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -31977,8 +31977,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -32248,7 +32248,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -32655,7 +32655,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -32692,7 +32692,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -32778,18 +32778,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -32799,13 +32799,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -32815,12 +32815,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -32829,41 +32829,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -32873,12 +32873,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -33327,7 +33327,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -33350,7 +33350,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -33361,10 +33361,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -33375,8 +33375,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -33451,7 +33451,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -34035,7 +34035,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -34045,17 +34045,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -34216,8 +34216,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -34456,7 +34456,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -34597,8 +34597,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -34868,7 +34868,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -35275,7 +35275,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -35312,7 +35312,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -35398,18 +35398,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -35419,13 +35419,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -35435,12 +35435,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -35449,41 +35449,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -35493,12 +35493,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -35947,7 +35947,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -35970,7 +35970,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -35981,10 +35981,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -35995,8 +35995,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -36071,7 +36071,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -36653,7 +36653,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -36663,17 +36663,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -36834,8 +36834,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -37074,7 +37074,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -37215,8 +37215,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -37486,7 +37486,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -37893,7 +37893,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -37930,7 +37930,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -38016,18 +38016,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -38037,13 +38037,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -38053,12 +38053,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -38067,41 +38067,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -38111,12 +38111,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -38565,7 +38565,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -38588,7 +38588,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -38599,10 +38599,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -38613,8 +38613,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -38689,7 +38689,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -39270,7 +39270,7 @@ body {
   font-family: 'Rubik', 'Noto Sans Hebrew', Arial, sans-serif;
   line-height: 1.7;
   color: #1a1a1a;
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 img {
@@ -39280,17 +39280,17 @@ img {
 }
 
 :root {
---primary-color: #CBB279;
+--primary-color: #CFB67B;
   --secondary-color: #191933;
   --accent-color: #191933;
-  --text-color: #4A4A4A;
+  --text-color: #FFFFFF;
   --light-text: #ffffff;
   --bg-white: #FFFFFF;
   --bg-light: #FFFFFF;
   --shadow: 0 2px 8px rgba(0,0,0,0.1);
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
-  --surface-color: #CFB77B;
+  --surface-color: #AB986C;
   --text-secondary-color: #FFFFFF;
 }
 
@@ -39451,8 +39451,8 @@ small, .small-text {
 }
 
 .nav-cta-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -39691,7 +39691,7 @@ section {
 }
 
 .testimonial-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -39832,8 +39832,8 @@ section {
 }
 
 .btn-primary:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: var(--shadow-hover);
 }
@@ -40103,7 +40103,7 @@ img, picture, figure {
 
     /* Legal Footer Styles - Header Colors */
     .legal-footer {
-      background-color: #CBB279;
+      background-color: #CFB67B;
       color: #1a1a1a;
       padding: 20px 0;
       font-size: 16px;
@@ -40510,7 +40510,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -40547,7 +40547,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #CBB279 !important;
+  background: #CFB67B !important;
   color: white !important;
 }
 
@@ -40633,18 +40633,18 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 /* === AI CUSTOMIZATION ADDITIONS === */
-/* Replace all green colors (#CBB279 !important and similar) with turquoise (#CBB279 !important) */
+/* Replace all green colors (#CFB67B !important and similar) with turquoise (#CFB67B !important) */
 
 /* Root variables - update primary color */
 :root {
-  --primary-color: #CBB279;
+  --primary-color: #CFB67B;
   --accent-color: #191933;
 }
 
 /* Navigation CTA button */
 .nav-cta-btn {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .nav-cta-btn:hover {
@@ -40654,13 +40654,13 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Navigation menu hover */
 .nav-menu a:hover {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Primary buttons */
 .btn-primary {
-  background: #CBB279 !important !important;
-  border-color: #CBB279 !important !important;
+  background: #CFB67B !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 .btn-primary:hover {
@@ -40670,12 +40670,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* CTA section background */
 .cta-section {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Page header background */
 .page-header {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 .page-header h1 {
@@ -40684,41 +40684,41 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Step numbers in process section */
 .step-number {
-  background: #CBB279 !important !important;
+  background: #CFB67B !important !important;
 }
 
 /* Achievement numbers */
 .achievement-number {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Testimonial author */
 .testimonial-author {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact icons */
 .contact-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Contact item links */
 .contact-item a {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Form focus states */
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  border-color: #CBB279 !important !important;
+  border-color: #CFB67B !important !important;
 }
 
 /* Mission and value icons */
 .mission-icon,
 .value-icon,
 .feature-icon {
-  color: #8a7036 !important !important;
+  color: #896f32 !important !important;
 }
 
 /* Secondary color for backgrounds */
@@ -40728,12 +40728,12 @@ body.accessibility-widget-visible ._access-menu {
 
 /* Contact CTA background */
 .contact-cta {
-  background: #CBB279;
+  background: #CFB67B;
 }
 
 /* Accessibility focus color */
 :root {
-  --accessibility-focus: #CBB279 !important !important;
+  --accessibility-focus: #CFB67B !important !important;
 }
 
 
@@ -41182,7 +41182,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
   font-size: 20px !important;
   font-weight: 600 !important;
   margin-bottom: 20px !important;
-  color: #8a7036 !important;
+  color: #896f32 !important;
   text-align: center;
 }
 
@@ -41205,7 +41205,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 .service-lead-form input[type="text"]:focus,
 .service-lead-form input[type="tel"]:focus {
   outline: none;
-  border-color: #CBB279;
+  border-color: #CFB67B;
   box-shadow: 0 0 0 3px rgba(197, 166, 75, 0.1);
 }
 
@@ -41216,10 +41216,10 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 .service-lead-form .submit-btn {
   width: 100%;
-  background: #CBB279;
+  background: #CFB67B;
   color: white;
   padding: 14px 32px;
-  border: 2px solid #CBB279;
+  border: 2px solid #CFB67B;
   border-radius: 6px;
   font-weight: 600;
   font-size: 16px;
@@ -41230,8 +41230,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .service-lead-form .submit-btn:hover {
-  background: #CBB279;
-  border-color: #CBB279;
+  background: #CFB67B;
+  border-color: #CFB67B;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(197, 166, 75, 0.3);
 }
@@ -41306,7 +41306,7 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 }
 
 .recommendation-stars {
-  color: #8a7036;
+  color: #896f32;
   margin-bottom: 1rem;
   font-size: 18px;
 }
@@ -41808,6 +41808,8 @@ nav.navbar,
     display: none;
   }
 }
+
+
 
 
 /* === BUTTON TEXT OVERRIDES START === */
