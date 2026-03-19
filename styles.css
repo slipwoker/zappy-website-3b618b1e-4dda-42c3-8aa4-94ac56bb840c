@@ -41830,6 +41830,12 @@ nav.navbar,
   text-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
+#zappy-section-0 .hero-video-background h1,
+#zappy-section-0 .hero-video-background h3 {
+  color: var(--text-secondary-color);
+  font-weight: bold;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
