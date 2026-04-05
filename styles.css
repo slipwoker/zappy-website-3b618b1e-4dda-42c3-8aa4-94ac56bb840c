@@ -41836,6 +41836,355 @@ nav.navbar,
   font-weight: bold;
 }
 
+/* Added Component Styles */
+/* =============================================
+   TESTIMONIALS SECTION — חזון משכנתאות
+   ============================================= */
+
+.tmn-testimonials {
+  background: var(--secondary-color, #191933);
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle decorative background element */
+.tmn-testimonials::before {
+  content: '';
+  position: absolute;
+  top: -120px;
+  left: -120px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(203, 178, 121, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.tmn-testimonials::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(203, 178, 121, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Container */
+.tmn-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- Section Header ---- */
+.tmn-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.tmn-badge {
+  display: inline-block;
+  background: rgba(203, 178, 121, 0.15);
+  color: var(--primary-color, #CBB279);
+  border: 1px solid rgba(203, 178, 121, 0.35);
+  border-radius: 50px;
+  padding: 6px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+
+.tmn-title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+  line-height: 1.25;
+}
+
+.tmn-subtitle {
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* ---- Testimonials Grid ---- */
+.tmn-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 60px;
+  align-items: stretch;
+}
+
+/* ---- Individual Card ---- */
+.tmn-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(203, 178, 121, 0.25);
+  border-radius: 18px;
+  padding: 30px 26px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.tmn-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, rgba(203, 178, 121, 0.4), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tmn-card:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(203, 178, 121, 0.5);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.tmn-card:hover::before {
+  opacity: 1;
+}
+
+/* Featured card highlight */
+.tmn-card--featured {
+  background: rgba(203, 178, 121, 0.1);
+  border-color: rgba(203, 178, 121, 0.45);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tmn-card--featured::before {
+  opacity: 1;
+  background: linear-gradient(90deg, transparent, rgba(203, 178, 121, 0.7), transparent);
+}
+
+.tmn-card--featured:hover {
+  background: rgba(203, 178, 121, 0.15);
+  border-color: rgba(203, 178, 121, 0.65);
+}
+
+/* ---- Card Top Row ---- */
+.tmn-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ---- Quote Icon ---- */
+.tmn-quote-icon {
+  font-size: 52px;
+  font-family: Georgia, serif;
+  color: var(--primary-color, #CBB279);
+  line-height: 1;
+  opacity: 0.7;
+  margin-top: -10px;
+  user-select: none;
+}
+
+/* ---- Stars ---- */
+.tmn-stars {
+  display: flex;
+  gap: 3px;
+  flex-direction: row-reverse;
+}
+
+.tmn-star {
+  color: var(--primary-color, #CBB279);
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* ---- Review Text ---- */
+.tmn-review {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.tmn-review p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* ---- Customer Info ---- */
+.tmn-customer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(203, 178, 121, 0.18);
+  flex-direction: row-reverse;
+}
+
+.tmn-avatar-wrap {
+  flex-shrink: 0;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 2px solid rgba(203, 178, 121, 0.5);
+  overflow: hidden;
+  background: rgba(203, 178, 121, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.tmn-card:hover .tmn-avatar-wrap {
+  border-color: var(--primary-color, #CBB279);
+}
+
+.tmn-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tmn-customer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: right;
+}
+
+.tmn-customer-name {
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.tmn-customer-company {
+  color: var(--primary-color, #CBB279);
+  font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+/* ---- Stats Bar ---- */
+.tmn-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(203, 178, 121, 0.2);
+  border-radius: 16px;
+  padding: 30px 40px;
+  flex-wrap: wrap;
+}
+
+.tmn-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  min-width: 120px;
+  padding: 10px 20px;
+}
+
+.tmn-stat-number {
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  font-weight: 800;
+  color: var(--primary-color, #CBB279);
+  line-height: 1;
+}
+
+.tmn-stat-label {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  line-height: 1.4;
+}
+
+.tmn-stat-divider {
+  width: 1px;
+  height: 50px;
+  background: rgba(203, 178, 121, 0.25);
+  flex-shrink: 0;
+}
+
+/* =============================================
+   RESPONSIVE — TABLET (3 columns → 2 columns)
+   ============================================= */
+@media (max-width: 1100px) {
+  .tmn-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .tmn-testimonials {
+    padding: 60px 16px;
+  }
+
+  .tmn-header {
+    margin-bottom: 40px;
+  }
+
+  .tmn-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .tmn-card {
+    padding: 24px 20px 20px;
+  }
+
+  .tmn-stats {
+    padding: 24px 20px;
+    gap: 0;
+  }
+
+  .tmn-stat-divider {
+    width: 80%;
+    height: 1px;
+    margin: 8px auto;
+  }
+
+  .tmn-stats {
+    flex-direction: column;
+  }
+
+  .tmn-stat {
+    padding: 12px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tmn-title {
+    font-size: 1.6rem;
+  }
+
+  .tmn-avatar-wrap {
+    width: 46px;
+    height: 46px;
+  }
+
+  .tmn-quote-icon {
+    font-size: 40px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
