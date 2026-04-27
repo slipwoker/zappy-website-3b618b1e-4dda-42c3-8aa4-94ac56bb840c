@@ -3018,6 +3018,22 @@ nav.navbar,
   }
 }
 
+.business-hours-section .business-hours-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+}
+
+.business-hours-section .business-hours-row {
+  margin: 0 !important;
+  padding: 4px 0 !important;
+}
+
+.business-hours-section .business-hours-row p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
