@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# חזון משכנתאות ופיננסים — Generative Engine Optimization Map
+
+> A פיננסים ומשכנתאות business.
 
 ---
 
@@ -47,12 +49,43 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: hazon.mashkanta@gmail.com
+- Phone: 0559880371
+- Phone (tel): tel:0559880371
+- Address: ז'בוטינסקי 9, בני ברק, ישראל
+
+### Contact form
+- URL: https://hazonm.co.il/contact
+- Endpoint: https://hazonm.co.il/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `service` (select)
+  - `message` (textarea)
+  - `consent` (checkbox, required)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://hazonm.co.il/sitemap.xml
-- **Robots.txt**: https://hazonm.co.il/robots.txt
+## About חזון משכנתאות ופיננסים
+חזון משכנתאות ופיננסים is a business in the פיננסים ומשכנתאות industry.
+
+## Target Audience
+לקוחות עם עסקאות מורכבות, מסורבי בנקים
+
+## Industry
+פיננסים ומשכנתאות
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://hazonm.co.il/sitemap.xml
+- Robots: https://hazonm.co.il/robots.txt
+- Flattened page text (for LLMs): https://hazonm.co.il/llms-full.txt
