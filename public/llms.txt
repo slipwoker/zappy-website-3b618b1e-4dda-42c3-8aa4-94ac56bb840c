@@ -54,7 +54,7 @@ Information about WCAG compliance and accessibility features.
 - Email: hazon.mashkanta@gmail.com
 - Phone: 0559880371
 - Phone (tel): tel:0559880371
-- Address: ז'בוטינסקי 9, בני ברק, ישראל
+- Address: ז'בוטינסקי 9, בני ברק, 5257219, ישראל
 
 ### Contact form
 - URL: https://hazonm.co.il/contact
