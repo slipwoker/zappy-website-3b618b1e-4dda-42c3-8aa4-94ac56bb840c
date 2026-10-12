@@ -100,11 +100,11 @@ img {
   --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
   --background-color: #FFFFFF;
   --surface-color: #CFB77B;
-  --text-secondary-color: #FFFFFF;
+  --text-secondary-color: #000000;
   --bg-dark: #1a1a1a;
   --text-dark: #4A4A4A;
   --text-light: #ffffff;
-  --text-muted: #FFFFFF;
+  --text-muted: #000000;
   --border-light: #898b8d;
   --border-dark: #6a7484;
 }
@@ -2548,14 +2548,7 @@ nav.navbar,
     display: none;
   }
 }
-/* === BUTTON TEXT OVERRIDES START === */
-.btn-primary,
-.btn--primary,
-[class*="btn-primary"],
-[class*="btn--primary"] { color: #333333 !important; }
-.navbar .nav-cta-btn,
-.nav-cta-btn { color: #333333 !important; }
-/* === BUTTON TEXT OVERRIDES END === */
+
 
 
 #zappy-section-0 h1 {
@@ -2990,6 +2983,15 @@ nav.navbar,
 }
 
 
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-primary,
+.btn--primary,
+[class*="btn-primary"],
+[class*="btn--primary"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #333333 !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
@@ -3224,7 +3226,17 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   .navbar .sub-menu.mobile-expanded,
   .zappy-products-dropdown > .sub-menu.mobile-expanded,
   .nav-menu.active .zappy-products-dropdown > .sub-menu.mobile-expanded,
-  .nav-menu.active .zappy-products-dropdown .sub-menu.mobile-expanded {
+  .nav-menu.active .zappy-products-dropdown .sub-menu.mobile-expanded,
+  /* Hover/focus-within hide is (1,2,1). The plain .mobile-expanded
+     rule is only (1,2,0), so a tap that leaves the row hovered or
+     focused keeps the opened submenu at display:none. These selectors
+     are (1,3,1) and win. */
+  #navMenu li:hover > .sub-menu.mobile-expanded,
+  #navMenu li:focus-within > .sub-menu.mobile-expanded,
+  .nav-menu li:hover > .sub-menu.mobile-expanded,
+  .nav-menu li:focus-within > .sub-menu.mobile-expanded,
+  .navbar li:hover > .sub-menu.mobile-expanded,
+  .navbar li:focus-within > .sub-menu.mobile-expanded {
     display: block !important;
     visibility: visible !important;
     opacity: 1 !important;
@@ -3239,6 +3251,35 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     right: auto !important;
     top: auto !important;
     float: none !important;
+  }
+}
+
+
+/* ZAPPY_OPEN_MOBILE_NAV_VISIBLE_V1 */
+/* Beat baked ".navbar #navMenu.nav-menu { opacity:0; visibility:hidden; max-height:0 }"
+   which still matches the open drawer. */
+@media (max-width: 768px) {
+  .navbar #navMenu.nav-menu.active,
+  .navbar #navMenu.nav-menu.open,
+  nav.navbar #navMenu.nav-menu.active,
+  nav.navbar #navMenu.nav-menu.open,
+  html body .navbar #navMenu.nav-menu.active,
+  html body .navbar #navMenu.nav-menu.open,
+  html[dir="rtl"] body .navbar #navMenu.nav-menu.active,
+  html[lang="he"] body .navbar #navMenu.nav-menu.active,
+  html[lang="ar"] body .navbar #navMenu.nav-menu.active,
+  html[dir="rtl"] body .navbar #navMenu.nav-menu.open,
+  html[lang="he"] body .navbar #navMenu.nav-menu.open,
+  html[lang="ar"] body .navbar #navMenu.nav-menu.open {
+    display: flex !important;
+    flex-direction: column !important;
+    max-height: calc(100dvh - var(--zappy-mobile-menu-top, var(--total-header-height, var(--zappy-navbar-bottom, 70px)))) !important;
+    height: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    pointer-events: auto !important;
   }
 }
 
