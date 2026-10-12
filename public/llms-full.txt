@@ -2789,7 +2789,7 @@ Happily created by Zappy
 URL: https://hazonm.co.il/credit-data-report
 
 דוח נתוני אשראי
-Happily created by&nbsp;Zappy
+Happily created by Zappy
 - דף הבית
 - שירותים
 - אודות
@@ -2882,25 +2882,25 @@ Your browser does not support the video tag.
 
 
 
-יום ראשון &nbsp; 09:00 - 18:00
+יום ראשון   09:00 - 18:00
 
 
-יום שני &nbsp; 09:00 - 18:00
+יום שני   09:00 - 18:00
 
 
-יום שלישי &nbsp; 09:00 - 18:00
+יום שלישי   09:00 - 18:00
 
 
-יום רביעי &nbsp; 09:00 - 18:00
+יום רביעי   09:00 - 18:00
 
 
-יום חמישי &nbsp; 09:00 - 18:00
+יום חמישי   09:00 - 18:00
 
 
-יום שישי &nbsp; סגור
+יום שישי   סגור
 
 
-יום שבת &nbsp; סגור
+יום שבת   סגור
 
 
 
@@ -2916,7 +2916,7 @@ Your browser does not support the video tag.
 
 © 2026 חזון משכנתאות ופיננסים. כל הזכויות שמורות.
 מדיניות פרטיות    |    נגישות    |    תנאי שימוש
-נוצר באמצעות&nbsp;Zappy
+נוצר באמצעות Zappy
 
 ---
 
