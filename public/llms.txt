@@ -53,6 +53,9 @@ https://hazonm.co.il/blog/loan-consolidation
 https://hazonm.co.il/blog/mortgage-tips
 לקראת רכישת דירה? אספנו עבורכם את הטיפים החשובים ביותר לפני לקיחת משכנתא. היערכות נכונה שווה לכם הרבה מאוד כסף.
 
+### Page
+https://hazonm.co.il/credit-data-report
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -87,7 +90,7 @@ Information about WCAG compliance and accessibility features.
   - `phone` (tel, required)
   - `service` (select)
   - `message` (textarea)
-  - `consent` (checkbox, required)
+  - `consent` (checkbox)
 
 ---
 
