@@ -3008,6 +3008,15 @@ nav.navbar,
 /* /Zappy custom logo size */
 
 
+@media (max-width: 768px) {
+.navbar .logo-link .logo,
+  .navbar img.logo {
+  width: 150px !important;
+  height: auto !important;
+  max-width: 150px !important;
+}
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
