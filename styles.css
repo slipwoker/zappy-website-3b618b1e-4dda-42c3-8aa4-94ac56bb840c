@@ -3027,10 +3027,10 @@ nav.navbar,
 
 .navbar .nav-brand {
   order: 0 !important;
-  width: 100% !important;
-  display: flex !important;
-  justify-content: center !important;
-  margin-bottom: 8px !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 
 .navbar .logo-link .logo,
