@@ -3017,57 +3017,6 @@ nav.navbar,
 }
 }
 
-@media (max-width: 768px) {
-.navbar .nav-container {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-.navbar .nav-brand {
-  order: 0 !important;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-
-.navbar .logo-link .logo,
-  .navbar img.logo {
-  width: 200px !important;
-  height: auto !important;
-  max-width: 200px !important;
-}
-
-.navbar .mobile-toggle {
-  order: 1 !important;
-  position: absolute !important;
-  left: 16px !important;
-  top: 16px !important;
-}
-
-.navbar .phone-header-btn {
-  order: 2 !important;
-  position: absolute !important;
-  right: 16px !important;
-  top: 16px !important;
-}
-}
-
-@media (max-width: 768px) {
-html[lang="he"] nav.navbar .nav-brand,
-  html[dir="rtl"] nav.navbar .nav-brand,
-  nav.navbar .nav-brand {
-  width: 100% !important;
-  max-width: 100% !important;
-  flex: 1 1 100% !important;
-  display: flex !important;
-  justify-content: center !important;
-  text-align: center !important;
-}
-}
-
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
