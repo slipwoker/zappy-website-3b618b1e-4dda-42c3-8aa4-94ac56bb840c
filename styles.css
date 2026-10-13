@@ -3055,6 +3055,19 @@ nav.navbar,
 }
 }
 
+@media (max-width: 768px) {
+html[lang="he"] nav.navbar .nav-brand,
+  html[dir="rtl"] nav.navbar .nav-brand,
+  nav.navbar .nav-brand {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 1 1 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
