@@ -3036,6 +3036,23 @@ nav.navbar,
   background-color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
 }
 
+#blog-cards .blog-card {
+  background-color: #e0e0e0 !important;
+}
+
+#blog-cards .blog-card h3 {
+  color: #203030 !important;
+}
+
+#blog-cards .blog-card p {
+  color: #4a5568 !important;
+}
+
+#blog-cards .blog-card .btn {
+  background-color: var(--primary-color, var(--primary, #CBB279)) !important;
+  color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
