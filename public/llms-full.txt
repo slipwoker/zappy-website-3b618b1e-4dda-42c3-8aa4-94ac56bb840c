@@ -2789,9 +2789,10 @@ Happily created by Zappy
 
 ---
 
-## https://hazonm.co.il/credit-data-report
+## דוח נתוני אשראי
 
 URL: https://hazonm.co.il/credit-data-report
+Description: מומחי ייעוץ משכנתאות למסורבי בנקים ועסקאות מורכבות. קבלו פתרון מותאם אישית עם חזון משכנתאות ופיננסים.
 
 דוח נתוני אשראי
 Happily created by Zappy
