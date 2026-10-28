@@ -3053,6 +3053,22 @@ nav.navbar,
   color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
 }
 
+#blog-cards .blog-card {
+  display: flex !important;
+  flex-direction: column !important;
+  background-color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+}
+
+#blog-cards .blog-card > div:last-child {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#blog-cards .blog-card > div:last-child p:last-child {
+  margin-top: auto !important;
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
