@@ -3032,6 +3032,10 @@ nav.navbar,
   border: none !important;
 }
 
+#blog-cards .blog-card {
+  background-color: var(--background-color, var(--background, var(--bg-light, #FFFFFF))) !important;
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
